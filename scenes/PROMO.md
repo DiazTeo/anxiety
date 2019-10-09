@@ -14,7 +14,7 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: Donc avant de commencer, comment aimeriez *vous* lire ?
 
 `publish("show_options_bottom")`
 
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: VOICI UN HUMAIN!
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: ET VOICI L'ANXIETE DE L'HUMAIN
 
-n: _YOU_ ARE THE ANXIETY
+n: _VOUS_ ETES L'ANXIETE
 
 (#act1_normal)
 
@@ -66,45 +66,45 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: Non. non, pas encore, je ne t'ecouterais pas. Je prefere regarder mon telephone.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: VOTRE TRAVAIL EST DE PROTEGER VOTRE HUMAIN DU *DANGER*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gasp! You're scrolling your life away on Twitter! Again!
+b: QUOI! Tu gaches ta vie sur Twitter ! Encore !
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Yeah I wonder why I don't just sit and listen to my thoughts more often.
+h: Oui, je me demande pourquoi je ne me pose pas plus souvent pour ecouter mes pensee.
 
 `hong({eyes:"neutral"});`
 
-n: QUICK, WARN THEM ABOUT A *DANGER!*
+n: VITE, AVERTI LES A PROPOS D'UN *DANGER!*
 
 ```
 bb({eyes:"look"});
 ```
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[Oh non, regarde cette horrible histoire!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[Oh non, est ce que ce tweet parle secretement de *nous* ?](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Regarde, un GIF de chat buvant du lait](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Heh ya that's cute, I--
+h: En Effet, c'est plutot mignon, je--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: LES CHATS NE PEUVENT PAS DIGERER LE LAIT ET NOUS SOMMES DES GENS HORRIBLE QUI AIMONS LA MALTRAITANCE ANIMAL
 
 (...200)
 
